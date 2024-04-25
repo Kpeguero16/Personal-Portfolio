@@ -24,25 +24,18 @@ const codeStyles = {
   borderRadius: 4,
 }
 
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%",
-}
-
 const IndexPage = () => {
   return (
-    <main style={pageStyles}>
-      <h1 style={headingStyles}>
-        Welcome to my Portfolio 🎉🎉🎉
-        <br />
-        <span style={headingAccentStyles}>— Website is still in progress</span>
-      </h1>
-      <p style={paragraphStyles}>
-        <code style={codeStyles}>Come back soon!</code> to see my most recent projects 😎
-      </p>
-    </main>
+      <main style={pageStyles}>
+        <h1 style={headingStyles}>
+          Welcome to my Portfolio 🎉🎉🎉
+          <br/>
+          <span style={headingAccentStyles}>— Website is still in progress</span>
+        </h1>
+        <p style={paragraphStyles}>
+          <code style={codeStyles}>Come back soon!</code> to see my most recent projects 😎
+        </p>
+      </main>
   )
 }
 
