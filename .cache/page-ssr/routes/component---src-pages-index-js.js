@@ -40,12 +40,6 @@ const codeStyles = {
   fontSize: "1.25rem",
   borderRadius: 4
 };
-const linkStyle = {
-  color: "#8954A8",
-  fontWeight: "bold",
-  fontSize: 16,
-  verticalAlign: "5%"
-};
 const IndexPage = () => {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("main", {
     style: pageStyles

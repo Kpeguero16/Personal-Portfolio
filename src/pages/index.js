@@ -27,14 +27,15 @@ const codeStyles = {
 const IndexPage = () => {
   return (
       <main style={pageStyles}>
-        <h1 style={headingStyles}>
-          Welcome to my Portfolio 🎉🎉🎉
-          <br/>
-          <span style={headingAccentStyles}>— Website is still in progress</span>
-        </h1>
-        <p style={paragraphStyles}>
-          <code style={codeStyles}>Come back soon!</code> to see my most recent projects 😎
-        </p>
+          <h1 style={headingStyles}>
+              Welcome to my Portfolio❗ 🌴🐋️
+              <br/>
+              <span style={headingAccentStyles}>— Website is still in progress ⚒️</span>
+          </h1>
+          <p style={paragraphStyles}>
+              <code style={codeStyles}>Come back soon!</code> to see my most recent projects 😎
+          </p>
+
       </main>
   )
 }
